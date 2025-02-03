@@ -10,16 +10,19 @@ body {
 
 /* Başlık */
 header {
-    background-color: #e62222;
+    background-color: #d30000;
     color: white;
     padding: 20px;
     font-size: 24px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+h3{
+    font-family: 'Times New Roman', Times, serif;
+}
 
 /* Menü Konteyner */
 .menu-container {
-    max-width: 600px;
+    max-width: 650px;
     margin: 20px auto;
     padding: 20px;
     background-color: white;
@@ -29,7 +32,7 @@ header {
 
 /* Kategori Başlıkları */
 .menu-category h3 {
-    background-color: #e62222;
+    background-color: #d30000;
     color: white;
     padding: 10px;
     border-radius: 5px;
@@ -43,10 +46,20 @@ header {
     border-bottom: 1px solid #ddd;
 }
 
+.name {
+    font-weight: bold; /* Kalın yapar */
+    font-size: 18px; /* Yazı boyutunu büyütür */
+    text-transform: uppercase; /* Tamamen büyük harf yapar */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
 /* Responsive Tasarım */
 @media (max-width: 600px) {
     .menu-item {
         flex-direction: column;
         text-align: left;
+
     }
 }
