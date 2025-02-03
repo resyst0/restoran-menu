@@ -1,0 +1,52 @@
+/* Genel Stiller */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f1e5;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Başlık */
+header {
+    background-color: #e62222;
+    color: white;
+    padding: 20px;
+    font-size: 24px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Menü Konteyner */
+.menu-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Kategori Başlıkları */
+.menu-category h3 {
+    background-color: #e62222;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Menü Öğeleri */
+.menu-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Responsive Tasarım */
+@media (max-width: 600px) {
+    .menu-item {
+        flex-direction: column;
+        text-align: left;
+    }
+}
